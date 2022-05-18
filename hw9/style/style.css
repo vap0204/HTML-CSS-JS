@@ -1,0 +1,223 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+.header {
+    height: 75px;
+    width: 100%;
+    background: #57b6e6;
+    position: fixed;
+    top: 0;
+}
+
+.h-left {
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+
+.logo {
+    width: 30%;
+    padding-left: 30px;
+    height: 100%;
+    background: url('../images/kisspng-housing-garden-house-affleck-road-patio-lake-house-cliparts-5aab45b90c1256.8939297415211739450495.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+.h-right {
+    width: 50%;
+    float: right;
+    height: 100%;
+    text-align: right;
+}
+
+.h-right button {
+    font-size: 40px;
+    border: unset;
+    background: unset;
+    margin-top: 14px;
+    color: white;
+    margin-right: 12px;
+}
+.nav {
+    width: 100%;
+    position: absolute;
+    top: 75px;
+    display: none;
+}
+
+.nav a {
+    display: block;
+    background-color: #57b6e6;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 12px;
+    text-transform: uppercase;
+    border-bottom: 1px solid white;
+}
+
+.nav a i {
+    float: right;
+}
+
+.top-section {
+    background: url('../images/neo-cityplace-4k-spadina-ave-normal-2.jpg');
+    min-height: 500px;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding: 50px;
+    box-sizing: border-box;
+    margin-top: 75px;
+}
+
+.top-section h1 {
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.top-section button {
+    background-color: #57b6e6;
+    border: 1px solid white;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 5px 18px;
+    color: white;
+    margin-top: 30px;
+    text-shadow: 1px 1px 1px black;
+}
+.best-offers-section {
+    padding: 20px;
+}
+
+.best-offers-section h2 {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 25px;
+}
+.best-offers-box p{
+    text-align: justify;
+    padding-top: 10px;
+}
+.best-offers-box {
+    text-align: center;
+    margin-top: 25px;
+    
+}
+.text-au{
+    border: #57b6e6;
+    border-style: solid;
+    padding: 5px;
+}
+.best-offers-box img {
+    width: 100%;
+}
+
+.best-offers-box h5 {
+    margin-top: 8px;
+}
+.best-offers-box {
+    font-size: 12px;
+    margin: 8px auto;
+}
+
+.best-offers-box .price {
+    color: #57b6e6;
+    font-weight: bold;
+    font-size: 15px;
+}
+.contacts-section {
+    background: #57b6e6;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    border-bottom: 1px solid white;
+}
+.bold {
+    font-weight: 700;
+}
+.footer-icons {
+    background: #57b6e6;
+    text-align: center;
+    padding: 15px;
+}
+.footer-icons a {
+    text-decoration: none;
+    color: white;
+    font-size: 31px;
+    margin-right: 20px;
+}
+.brokers{
+    width: 100%;
+    padding: 30px 0px;
+}
+table img{
+    width: 15px;
+    height: 15px;
+}
+table{
+    border: 1px 1px 1px 1px;
+    border-style: solid ;
+    border-color: #57b6e6;
+    width: 100%;
+    text-align: center;
+}
+.brokers h2{
+    text-align: center;
+}
+.contact-form{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.contact-form h2{
+    color: white;
+}
+textarea {
+    border: 4px solid white;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    min-height: 25px;
+    margin: 6px 0px;
+    color: #57b6e6;
+}
+button{
+    border: 4px solid white;
+    border-radius: 20px;
+    padding: 8px 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: #57b6e6;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 6px 0px;
+   
+}
+input{
+    border: 4px solid white;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    min-height: 25px;
+    margin: 6px 0px;
+    color: #57b6e6;
+}
