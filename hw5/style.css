@@ -1,0 +1,279 @@
+body,
+html {
+    margin: 0;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.header-container {
+    min-height: 100%;
+    background: url('images/image.jpg');
+    background-size: cover;
+}
+
+.header-container-inner {
+    width: 100%;
+}
+
+.header-inner-left-in {
+    width: 20%;
+    float: left;
+}
+
+.header-inner-right {
+    width: 80%;
+    float: right;
+    position: top;
+    top: 90%;
+}
+
+.nav {
+    float: right;
+    display: inline;
+}
+
+li {
+    display: inline;
+    float: left;
+    font-weight: 100;
+}
+
+a {
+    color: rgb(233, 233, 232);
+    text-decoration-line: none;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+a:hover {
+    color: #58E970;
+}
+
+.pad-15 {
+    padding-top: 15px;
+}
+
+.logo {
+    color: #58E970;
+    padding: 0 25px;
+    text-align: center;
+    display: inline;
+    font-size: 32px;
+    height: 10px;
+    font-weight: 100;
+}
+
+.p-head {
+    width: 62%;
+    padding-top: 12%;
+    float: right;
+    padding-bottom: 0%;
+}
+
+.relax-p {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.bestOfferts {
+    width: 93%;
+    padding-top: 0%;
+    float: right;
+}
+
+.styleBestOf {
+    color: #58E970;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.a-hrefWithBorder {
+    width: 87%;
+    padding-top: 0%;
+    float: right;
+}
+
+.borderA {
+    border-style: solid;
+    padding: 10px;
+    color: #58E970;
+
+}
+
+.borderA:hover {
+    color: white;
+}
+
+.icons-and-heading {
+    width: 63%;
+    padding-left: 300px;
+}
+
+.heading {
+    text-align: center;
+    padding-bottom: 350px;
+}
+
+.whyUs {
+    font-size: 25px;
+}
+
+.reason {
+    color: #58E970;
+    font-size: 15px;
+}
+
+.icons {
+    width: 28%;
+    float: left;
+    border-style:groove;
+    box-shadow: 1px;
+    padding: 10px;
+}
+
+.image {
+    width: 50%;
+    height: 10%;
+}
+
+.div-read {
+
+    width: 75%;
+    padding: 60px 90px;
+    float: left;
+}
+
+.read {
+    border-style: solid;
+    color: #58E970;
+    padding: 15px;
+}
+
+.secondFullBackgr {
+    min-height: 55%;
+    background: url('images/boat.jpg');
+    background-size: cover;
+}
+
+.inside {
+    width: 100%;
+    color: white;
+    float: left;
+    padding-top: 160px;
+    text-align: center;
+}
+
+.readmore2 {
+    padding: 10px;
+    color: #58E970;
+    border-style: solid;
+    color: #58E970;
+
+}
+
+.divahref2 {
+    padding-top: 25px;
+}
+
+.contact-container {
+    width: 85%;
+    float:right;
+    padding: 50px 0px;
+    padding-right: 50px;
+}
+
+.heading-contact {
+    text-align: center;
+    width: 89%;
+}
+
+.table-form {
+    width: 60%;
+    text-align: center;
+    float: right;
+    background-color: grey;
+    border-style: solid;
+    border-color: #58E970;
+    border-radius: 10px;
+}
+
+.tablica {
+    width: 99%;
+    border-radius: 10px;
+}
+
+input {
+    border-style: solid;
+    border-color: #58E970;
+    width: 100%;
+    border-radius: 10px;
+    padding-top: 10px;
+    background-color: grey;
+}
+
+.textarea {
+    border-style: solid;
+    border-color: #58E970;
+    border-right-width: 100%;
+    border-radius: 10px;
+    padding-top: 10px;
+    background-color: grey;
+    color: white;
+}
+
+table {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    background-color: grey;
+    border-style: solid;
+    border-color: #58E970;
+    border-radius: 10px;
+}
+.outside-form{
+    width: 64%;
+    float: left;
+}
+button{
+    background-color:#58E970;
+    border-radius: 15px;
+    font-size: 16px;
+    color: white;
+    padding:6px 40px;
+}
+::placeholder{
+    color: white;
+    font-weight: 400;
+}
+.footer-container{
+    width: 100%;
+    height: 266px;
+    background-color: #333333;
+}
+.clear{
+    clear: both;
+}
+.footerH{
+    text-align: center;
+    color: #58E970;
+    padding-top: 50px;
+}
+.footerP{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+.mails-footer{
+    width: 60%;
+    float: right;
+}
+.button-Footer{
+    width: 55%;
+    padding: 10px 0px;
+    float: right;
+}
