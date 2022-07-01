@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex1 task1</title>
+    <style>
+        .box{
+            background-color: silver;
+            width: 30%;
+            height: 200px;
+            display: inline-block;
+        }
+        .container{
+            text-align: center;
+        }
+        .main{
+            font-size: 14px;
+            color: blueviolet;
+        }
+        @media(max-width:1024px) 
+        {
+            .box{
+                width: 100%;
+                margin-bottom: 15px;
+                height: 200px;
+            }
+        }
+        @media(max-width:1024px) and(min-width:769px)
+        {
+            .main{
+                font-size: 16px;
+                color: red;
+            }
+        }
+        @media(max-width:480px) and (min-width:321px)
+        {
+            .main{
+                font-size: 24px;
+                color: green;
+            }
+        }
+        @media(max-width:768px) and(min-width:481px)
+        {
+            .main{
+                font-size: 20px;
+                color: orange;
+            }
+        }
+        @media(max-width:320px)
+        {
+            .main{
+                font-size: 32px;
+                color: yellow;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <div class="main">
+        Lorem ipsum, dolor sit amet 
+        consectetur adipisicing elit. 
+        Facilis iure molestiae, nostrum 
+        culpa illum perferendis est unde!
+        Reiciendis eum quis, unde 
+        inventore dolor animi voluptatibus 
+        esse eius hic tempora nostrum?
+    </div>
+</body>
+</html>
